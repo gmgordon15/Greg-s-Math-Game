@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Subtraction</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Addition</a></li>
+                <li>
+                    <a href="subtraction.html">Subtraction</a></li>
+                <li>
+                    <a href="multiply.html">Multiplication</a></li>
+                <li>
+                    <a href="division.html">Division</a></li>
+                <li id="logo">
+                    <a href="index.html">Greg's Math Game</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="buttonDiv">
+        <button class="newProblem">Start Game</button>
+    </div>
+    <div class="scoreboard">
+        <h2>Score:</h2>
+        <h2 class="score">0</h2>
+    </div>
+
+
+    <div class="equation-section">
+        <div class="number1">
+            <h1>1</h1>
+        </div>
+        <div class="operator">
+            <h1>-</h1>
+        </div>
+        <div class="number2">
+            <h1>1</h1>
+        </div>
+        <div class="equals">
+            <h1>=</h1>
+        </div>
+        <div class="question-mark">
+            <h1>?</h1>
+        </div>
+    </div>
+
+
+
+    <div class="answers-section">
+        <div class="answer1">
+            <h1 id="option1">2</h1>
+        </div>
+        <div class="answer2">
+            <h1 id="option2">5</h1>
+        </div>
+        <div class="answer3">
+            <h1 id="option3">8</h1>
+        </div>
+    </div>
+
+    <!----Modal-->
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <span class="close">Return to game</span>
+            <p>You got the wrong answer! Try Again!</p>
+        </div>
+    </div>
+    <script src="subtraction.js"></script>
+
+</body>
+
+</html>
